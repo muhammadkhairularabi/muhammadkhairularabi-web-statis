@@ -1,0 +1,45 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrepper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(1, 69, 27);
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+    font-size: 1,5em;
+    padding: 15px;
+    text-transform: capitalize;
+    color: white;
+    text-align: left;
+}
+
+.navigator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigator > li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigator> li > a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
